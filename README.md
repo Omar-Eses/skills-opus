@@ -27,6 +27,8 @@ and final review; use cheaper agents for bounded heavy lifting.
 Solves for broad work that can be parallelized without asking the most expensive
 model to do every scan and every edit itself.
 
+![Fable orchestrator diagram](skills/efficient-fable/assets/fable-orchestrator.png)
+
 ### [`/stay-within-limits`](skills/stay-within-limits/README.md)
 
 Check current 5-hour and weekly usage before substantial work and between
@@ -39,20 +41,23 @@ self-contained plan.
 
 ### [`/visual-plan`](skills/visual-plan/README.md)
 
-Publish an Agent-Native Plan before risky or ambiguous implementation work, with
-inline diagrams, file maps, API/data blocks, open questions, comments, and
-optional UI or prototype review surfaces.
+Turn risky plans into human-optimized MDX documents with custom visual blocks:
+diagrams, wireframes, prototypes, visual schema maps, OpenAPI-style API specs,
+annotated code, open questions, and review comments.
 
-Solves for planning in chat when the work really needs a reviewable artifact the
-user can scan, comment on, and approve before code changes start.
+Solves for plans that are too important to bury in chat. The output is
+scannable, commentable, and intuitive enough for a human to approve before code
+changes start.
 
 ### [`/visual-recap`](skills/visual-recap/README.md)
 
-Turn a branch, commit, or PR diff into a visual recap plan that explains what
-changed at a higher altitude than raw diff review.
+Turn a branch, commit, or PR diff into a human-optimized visual recap with MDX
+and custom components: annotated diffs, diagrams, API diffs, visual schema maps,
+file maps, and UI state summaries.
 
-Solves for large diffs that hide the important shape of the change: schema/API
-contracts, UI states, architecture moves, file footprint, and key review points.
+Solves for diffs that hide the shape of the change. Reviewers can understand
+contracts, architecture moves, schema changes, and UI impact before diving into
+raw line-by-line review.
 
 ### [`/quick-recap`](skills/quick-recap/README.md)
 
@@ -61,6 +66,24 @@ with a clear green, yellow, or red work-state signal.
 
 Solves for ambiguity at the end of agent work: done, pending a specific
 non-routine step, or blocked on the user.
+
+Example green status:
+
+```md
+---
+
+⠀
+🟢 Updated quick recap docs with output examples
+```
+
+Example yellow status:
+
+```md
+---
+
+⠀
+🟡 Set PROVIDER_WEBHOOK_SECRET before testing webhooks
+```
 
 ## Install
 

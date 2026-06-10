@@ -7,6 +7,8 @@ default worker for every token-heavy pass.
 works for any high-cost model where the expensive part should be reserved for
 judgment, synthesis, integration, and final quality.
 
+![Frontier orchestrator diagram](../efficient-fable/assets/fable-orchestrator.png)
+
 ## What It Does
 
 - Separates frontier-only decisions from delegable work.

@@ -8,6 +8,8 @@ edit. Fable keeps the hard calls: decomposition, architecture, product tradeoffs
 synthesis, risk, and final review. Lighter agents do the repeatable heavy
 passes.
 
+![Fable orchestrator diagram](assets/fable-orchestrator.png)
+
 ## What It Does
 
 - Splits large work into research, coding, and testing lanes.
@@ -53,6 +55,9 @@ claim.
 
 Editable Excalidraw source:
 [`assets/fable-orchestrator.excalidraw`](assets/fable-orchestrator.excalidraw)
+
+Rendered PNG:
+[`assets/fable-orchestrator.png`](assets/fable-orchestrator.png)
 
 ## Install
 
