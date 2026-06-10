@@ -12,9 +12,6 @@ Make completion state obvious at the end of every response.
 Every response that completes a unit of work must end with:
 
 ```md
----
-
-⠀
 🟢 Actual concise status sentence
 ```
 
@@ -24,7 +21,8 @@ Rules:
 - Use `🟢` when the requested work is finished.
 - Use `🟡` when non-routine follow-up remains; name the pending item.
 - Use `🔴` only when blocked on user input.
-- Keep everything below `---` to the braille blank line and one status line.
+- Put the status line at the very end of the response.
+- Do not add `---`, spacer lines, or any content after the status line.
 
 ## Installer Behavior
 
@@ -40,32 +38,17 @@ perspective: finished, pending a specific non-routine step, or blocked.
 Finished work:
 
 ```md
-Updated the docs and ran the relevant checks.
-
----
-
-⠀
 🟢 Updated quick recap docs with output examples
 ```
 
 Non-routine follow-up remains:
 
 ```md
-I added the integration code, but the provider app still needs a webhook secret.
-
----
-
-⠀
-🟡 Set PROVIDER_WEBHOOK_SECRET before testing webhooks
+🟡 Code updated, set PROVIDER_WEBHOOK_SECRET before testing webhooks
 ```
 
 Blocked on user input:
 
 ```md
-I cannot continue the deployment setup without the production API key.
-
----
-
-⠀
 🔴 Need the production API key to continue
 ```

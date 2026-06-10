@@ -71,19 +71,13 @@ non-routine step, or blocked on the user.
 Example green status:
 
 ```md
----
-
-⠀
 🟢 Updated quick recap docs with output examples
 ```
 
 Example yellow status:
 
 ```md
----
-
-⠀
-🟡 Set PROVIDER_WEBHOOK_SECRET before testing webhooks
+🟡 Code updated, set PROVIDER_WEBHOOK_SECRET before testing webhooks
 ```
 
 ## Install

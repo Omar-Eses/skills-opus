@@ -8,7 +8,7 @@ blocked.
 
 ## What It Does
 
-- Adds a three-line final status block shape.
+- Adds a single final status line.
 - Defines when to use green, yellow, or red.
 - Keeps the status user-facing and under 100 characters.
 - Installs cleanly into `AGENTS.md` or `CLAUDE.md` through a managed block.
@@ -30,33 +30,18 @@ work, or partial handoffs can make status hard to scan.
 Green means the work unit is done:
 
 ```md
-Updated the docs and ran the relevant checks.
-
----
-
-⠀
 🟢 Updated quick recap docs with output examples
 ```
 
 Yellow means a specific non-routine item remains:
 
 ```md
-I added the integration code, but the provider app still needs a webhook secret.
-
----
-
-⠀
-🟡 Set PROVIDER_WEBHOOK_SECRET before testing webhooks
+🟡 Code updated, set PROVIDER_WEBHOOK_SECRET before testing webhooks
 ```
 
 Red means the agent is blocked on user input:
 
 ```md
-I cannot continue the deployment setup without the production API key.
-
----
-
-⠀
 🔴 Need the production API key to continue
 ```
 
