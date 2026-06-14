@@ -17,24 +17,24 @@ See the [full CLI docs below](#install).
 
 ## Skills
 
-### [`/efficient-fable`](skills/efficient-fable/README.md)
+### [`/efficient-opus`](skills/efficient-opus/README.md)
 
-Use Claude Fable as the orchestrator, architect, synthesizer, and final judge
+Use Claude Opus as the orchestrator, architect, synthesizer, and final judge
 while lighter agents handle token-heavy research, coding, testing, and log
 reduction.
 
-Solves for expensive-model waste: Fable should spend tokens on judgment, not on
+Solves for expensive-model waste: Opus should spend tokens on judgment, not on
 reading every file, reducing every log, or manually running every browser check.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="skills/efficient-fable/assets/fable-orchestrator-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="skills/efficient-fable/assets/fable-orchestrator.png">
-  <img alt="Fable orchestrator diagram" src="skills/efficient-fable/assets/fable-orchestrator.png">
+  <source media="(prefers-color-scheme: dark)" srcset="skills/efficient-opus/assets/opus-orchestrator-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="skills/efficient-opus/assets/opus-orchestrator.png">
+  <img alt="Opus orchestrator diagram" src="skills/efficient-opus/assets/opus-orchestrator.png">
 </picture>
 
 ### [`/efficient-frontier`](skills/efficient-frontier/README.md)
 
-Apply the same orchestration as `/efficient-fable` to any high-cost frontier
+Apply the same orchestration as `/efficient-opus` to any high-cost frontier
 model: preserve the expensive model for planning, tradeoffs, integration,
 validation strategy, and final review; use cheaper agents for bounded heavy
 lifting.

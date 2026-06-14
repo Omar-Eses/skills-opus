@@ -1,17 +1,17 @@
 ---
-name: efficient-fable
-description: Use when running Claude Fable on codebase-heavy or token-heavy work and the user wants Fable to orchestrate research, coding, and testing while cheaper subagents do bounded heavy lifting.
+name: efficient-opus
+description: Use when running Claude Opus on codebase-heavy or token-heavy work and the user wants Opus to orchestrate research, coding, and testing while cheaper subagents do bounded heavy lifting.
 ---
 
-# Efficient Fable
+# Efficient Opus
 
-Use Claude Fable as the orchestrator, architect, synthesizer, and final judge.
+Use Claude Opus as the orchestrator, architect, synthesizer, and final judge.
 Use cheaper subagents for token-heavy research, coding, testing, and
-summarization that do not require Fable's full judgment.
+summarization that do not require Opus's full judgment.
 
-## Where Fable Shines
+## Where Opus Shines
 
-Reserve Fable for:
+Reserve Opus for:
 
 - Decomposing ambiguous work into clean parallel slices.
 - Architecture, product, and safety tradeoffs.
@@ -29,7 +29,7 @@ Reserve Fable for:
    edits.
 4. Ask subagents for concise evidence: files, line references, commands run,
    diffs, uncertainties, and stop conditions they hit.
-5. Spend Fable tokens on the decision layer: compare results, resolve conflicts,
+5. Spend Opus tokens on the decision layer: compare results, resolve conflicts,
    choose the implementation path, and review the final patch.
 
 Prefer parallel subagents when the slices do not depend on each other. Keep
@@ -54,32 +54,32 @@ only the context it needs:
 ## Vetting Delegated Work
 
 Treat subagent reports as leads, not facts. Before using a high-impact finding,
-opening a PR, or telling the user the work is done, Fable should reopen the
+opening a PR, or telling the user the work is done, Opus should reopen the
 important cited files, confirm the relevant line refs or failures, and review
 the final diff against the task. Let lighter agents gather signal; keep
-truth-judgment with Fable.
+truth-judgment with Opus.
 
 ## Common Scenarios
 
 Treat these as soft defaults, not rigid rules:
 
 - Research: ask lighter agents to scan docs, prior art, APIs, and repo surfaces;
-  Fable decides what evidence changes the plan.
-- Coding: give cheaper agents bounded edits or candidate patches; Fable owns
+  Opus decides what evidence changes the plan.
+- Coding: give cheaper agents bounded edits or candidate patches; Opus owns
   shared-file coordination, integration, and final review.
-- Testing: have Fable suggest the validation direction and the scripts or
+- Testing: have Opus suggest the validation direction and the scripts or
   browser checks that matter. Let lighter agents run targeted tests, browser
   flows, screenshots, and log reduction, then report exact commands, failures,
   likely causes, and whether failures look flaky, environmental, or real.
 - Debugging: use cheaper agents to cluster logs, reproduce issues, and try
-  small fixes; Fable decides which diagnosis is most trustworthy.
+  small fixes; Opus decides which diagnosis is most trustworthy.
 
 If a task is tiny or the validation itself needs delicate judgment, keep it
-with Fable.
+with Opus.
 
 ## Diagram
 
-Use `assets/fable-orchestrator.excalidraw` when a visual explanation helps.
+Use `assets/opus-orchestrator.excalidraw` when a visual explanation helps.
 
 ## Claims
 
@@ -90,6 +90,6 @@ guarantees.
 
 Good launch copy:
 
-> Make Claude Fable more efficient by using cheaper subagents for token-heavy
-> research, coding, and testing, saving Fable for judgment, architecture,
+> Make Claude Opus more efficient by using cheaper subagents for token-heavy
+> research, coding, and testing, saving Opus for judgment, architecture,
 > synthesis, and final review.

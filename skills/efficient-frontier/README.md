@@ -1,9 +1,9 @@
 # /efficient-frontier
 
-Apply the same orchestration as `/efficient-fable` to any high-cost frontier
+Apply the same orchestration as `/efficient-opus` to any high-cost frontier
 model.
 
-`/efficient-frontier` is the model-agnostic version of `/efficient-fable`. It
+`/efficient-frontier` is the model-agnostic version of `/efficient-opus`. It
 works for any high-cost model where the expensive part should be reserved for
 judgment, synthesis, integration, and final quality.
 

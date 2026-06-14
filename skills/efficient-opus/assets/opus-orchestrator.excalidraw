@@ -8,8 +8,8 @@
       "type": "text",
       "x": 155,
       "y": 35,
-      "width": 900,
-      "height": 48,
+      "width": 1004.8635864257812,
+      "height": 40,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -23,20 +23,20 @@
       "index": "a0",
       "roundness": null,
       "seed": 644918429,
-      "version": 3,
-      "versionNonce": 1012631123,
+      "version": 9,
+      "versionNonce": 1778017463,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1781109975573,
+      "boundElements": [],
+      "updated": 1781478461252,
       "link": null,
       "locked": false,
-      "text": "Fable orchestrates. Lighter agents gather signal and write code.",
+      "text": "Opus orchestrates. Lighter agents gather signal and write code.",
       "fontSize": 32,
       "fontFamily": 5,
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "Fable orchestrates. Lighter agents gather signal and write code.",
+      "originalText": "Opus orchestrates. Lighter agents gather signal and write code.",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -253,9 +253,9 @@
     {
       "id": "a-goal-fable",
       "type": "arrow",
-      "x": 320,
+      "x": 320.5,
       "y": 205,
-      "width": 130,
+      "width": 129,
       "height": 0,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -273,17 +273,17 @@
       "version": 2,
       "versionNonce": 503324029,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453369,
       "link": null,
       "locked": false,
       "points": [
         [
-          0.5,
+          0,
           0
         ],
         [
-          129.5,
+          129,
           0
         ]
       ],
@@ -297,9 +297,9 @@
     {
       "id": "a-fable-output",
       "type": "arrow",
-      "x": 800,
+      "x": 800.5,
       "y": 205,
-      "width": 120,
+      "width": 119,
       "height": 0,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -317,17 +317,17 @@
       "version": 2,
       "versionNonce": 1471694035,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453369,
       "link": null,
       "locked": false,
       "points": [
         [
-          0.5,
+          0,
           0
         ],
         [
-          119.5,
+          119,
           0
         ]
       ],
@@ -341,10 +341,10 @@
     {
       "id": "a-fable-research",
       "type": "arrow",
-      "x": 500,
-      "y": 270,
-      "width": 250,
-      "height": 150,
+      "x": 499.5,
+      "y": 270.5,
+      "width": 249,
+      "height": 149,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -361,18 +361,18 @@
       "version": 2,
       "versionNonce": 1383687645,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453369,
       "link": null,
       "locked": false,
       "points": [
         [
-          -0.5,
-          0.5
+          0,
+          0
         ],
         [
-          -249.5,
-          149.5
+          -249,
+          149
         ]
       ],
       "lastCommittedPoint": null,
@@ -386,9 +386,9 @@
       "id": "a-fable-coding",
       "type": "arrow",
       "x": 625,
-      "y": 270,
+      "y": 270.5,
       "width": 0,
-      "height": 150,
+      "height": 149,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -405,18 +405,18 @@
       "version": 2,
       "versionNonce": 949891699,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453369,
       "link": null,
       "locked": false,
       "points": [
         [
           0,
-          0.5
+          0
         ],
         [
           0,
-          149.5
+          149
         ]
       ],
       "lastCommittedPoint": null,
@@ -429,10 +429,10 @@
     {
       "id": "a-fable-testing",
       "type": "arrow",
-      "x": 750,
-      "y": 270,
-      "width": 285,
-      "height": 150,
+      "x": 750.5,
+      "y": 270.5,
+      "width": 284,
+      "height": 149,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -449,18 +449,18 @@
       "version": 2,
       "versionNonce": 1298833981,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453369,
       "link": null,
       "locked": false,
       "points": [
         [
-          0.5,
-          0.5
+          0,
+          0
         ],
         [
-          284.5,
-          149.5
+          284,
+          149
         ]
       ],
       "lastCommittedPoint": null,
@@ -473,10 +473,10 @@
     {
       "id": "r-research-fable",
       "type": "arrow",
-      "x": 340,
-      "y": 420,
-      "width": 180,
-      "height": 150,
+      "x": 340.5,
+      "y": 419.5,
+      "width": 179,
+      "height": 149,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -493,18 +493,18 @@
       "version": 2,
       "versionNonce": 229993491,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453369,
       "link": null,
       "locked": false,
       "points": [
         [
-          0.5,
-          -0.5
+          0,
+          0
         ],
         [
-          179.5,
-          -149.5
+          179,
+          -149
         ]
       ],
       "lastCommittedPoint": null,
@@ -518,9 +518,9 @@
       "id": "r-coding-fable",
       "type": "arrow",
       "x": 675,
-      "y": 420,
+      "y": 419.5,
       "width": 0,
-      "height": 150,
+      "height": 149,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -537,18 +537,18 @@
       "version": 2,
       "versionNonce": 1672827549,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453369,
       "link": null,
       "locked": false,
       "points": [
         [
           0,
-          -0.5
+          0
         ],
         [
           0,
-          -149.5
+          -149
         ]
       ],
       "lastCommittedPoint": null,
@@ -561,10 +561,10 @@
     {
       "id": "r-testing-fable",
       "type": "arrow",
-      "x": 950,
-      "y": 420,
-      "width": 220,
-      "height": 150,
+      "x": 949.5,
+      "y": 419.5,
+      "width": 219,
+      "height": 149,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -581,18 +581,18 @@
       "version": 2,
       "versionNonce": 1525969331,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453369,
       "link": null,
       "locked": false,
       "points": [
         [
-          -0.5,
-          -0.5
+          0,
+          0
         ],
         [
-          -219.5,
-          -149.5
+          -219,
+          -149
         ]
       ],
       "lastCommittedPoint": null,
@@ -625,7 +625,7 @@
       "version": 3,
       "versionNonce": 2073455101,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453371,
       "link": null,
       "locked": false,
@@ -642,9 +642,9 @@
     {
       "id": "OVvxuy7UWrLLbiQPXduax",
       "type": "text",
-      "x": 505.90234375,
+      "x": 475.5641174316406,
       "y": 150,
-      "width": 238.1953125,
+      "width": 298.87176513671875,
       "height": 90,
       "angle": 0,
       "strokeColor": "#1e1e1e",
@@ -659,20 +659,20 @@
       "index": "aK",
       "roundness": null,
       "seed": 1600953373,
-      "version": 3,
-      "versionNonce": 2128281683,
+      "version": 8,
+      "versionNonce": 1025659833,
       "isDeleted": false,
-      "boundElements": null,
-      "updated": 1781109453371,
+      "boundElements": [],
+      "updated": 1781478378642,
       "link": null,
       "locked": false,
-      "text": "Claude Fable\norchestrator + judge\nplan, tradeoffs, synthesis",
+      "text": "Claude Opus\norchestrator + judge\nplan, tradeoffs, synthesis",
       "fontSize": 24,
       "fontFamily": 5,
       "textAlign": "center",
       "verticalAlign": "middle",
       "containerId": "fable",
-      "originalText": "Claude Fable\norchestrator + judge\nplan, tradeoffs, synthesis",
+      "originalText": "Claude Opus\norchestrator + judge\nplan, tradeoffs, synthesis",
       "autoResize": true,
       "lineHeight": 1.25
     },
@@ -699,7 +699,7 @@
       "version": 3,
       "versionNonce": 814883421,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453371,
       "link": null,
       "locked": false,
@@ -736,7 +736,7 @@
       "version": 3,
       "versionNonce": 1927118323,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453371,
       "link": null,
       "locked": false,
@@ -773,7 +773,7 @@
       "version": 3,
       "versionNonce": 1379389117,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453371,
       "link": null,
       "locked": false,
@@ -810,7 +810,7 @@
       "version": 3,
       "versionNonce": 1761560467,
       "isDeleted": false,
-      "boundElements": null,
+      "boundElements": [],
       "updated": 1781109453371,
       "link": null,
       "locked": false,
@@ -826,8 +826,11 @@
     }
   ],
   "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
     "viewBackgroundColor": "#ffffff",
-    "gridSize": null
+    "lockedMultiSelections": {}
   },
   "files": {}
 }
